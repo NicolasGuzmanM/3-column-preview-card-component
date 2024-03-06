@@ -123,9 +123,16 @@ button {
     }
 
     .main-container{
+        align-items: center;
         flex-direction: row;
         height: 500px;
-        margin: auto;
+        justify-content: center;
         width: 920px;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
     }
 }
